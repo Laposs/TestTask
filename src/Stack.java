@@ -26,10 +26,10 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack blabla = new Stack();
-        System.out.println(blabla.alg("2[3[x]y]"));
-        //System.out.println(blabla.superalgoritm("3[xy]2[qwe]"));
-        //System.out.println(blabla.superalgoritm("2[2[3[x]y]4[z]]"));
+        Stack s = new Stack();
+        System.out.println(s.alg("2[3[x]y]"));
+        //System.out.println(s.alg("3[xy]2[qwe]"));
+        //System.out.println(s.alg("2[2[3[x]y]4[z]]"));
         System.out.println();
     }
 }
